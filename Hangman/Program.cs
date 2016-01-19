@@ -18,12 +18,32 @@ namespace Hangman
 
     class Game
     {
-        private string[] words = { "banana" };
+        private string[] words = { "banana", "pineapple", "watermelon", "lemon" };
         private Random randGen = new Random();
+        private String name = "HANGMAN";
 
         public Game()
         {
+        }
 
+        private void printSep(int l)
+        {
+            string s = "";
+            for (int i = 0; i < l; i++)
+            {
+                s += "#";
+            }
+            Console.WriteLine(s);
+        }
+
+        private void printLogo()
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.BackgroundColor = ConsoleColor.DarkGray;
+            this.printSep(this.name.Length + 2);
+            Console.WriteLine("#" + this.name + "#");
+            this.printSep(this.name.Length + 2);
+            Console.ResetColor();
         }
 
         public void run()
@@ -37,6 +57,8 @@ namespace Hangman
             {
                 hidden[i] = '_';
             }
+
+            this.printLogo();
 
             while (guesses > 0)
             {
@@ -76,6 +98,12 @@ namespace Hangman
                 if (fail)
                 {
                     guesses--;
+                    if (guesses == 0)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("\n\nYou lost the game :(((\nThe word was: " + word);
+                        Console.ResetColor();
+                    }
                 } else {
                     if(new String(hidden).Equals(word))
                     {

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oliot_6", "oliot_6\oliot_6.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oliot_7", "oliot_7\oliot_7.csproj", "{5CFED1B1-73AD-4C13-8A13-B43ABA3D8620}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "Hangman\Hangman.csproj", "{30331F48-0B16-4E39-AFDA-F2B09E549324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{5CFED1B1-73AD-4C13-8A13-B43ABA3D8620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CFED1B1-73AD-4C13-8A13-B43ABA3D8620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CFED1B1-73AD-4C13-8A13-B43ABA3D8620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30331F48-0B16-4E39-AFDA-F2B09E549324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30331F48-0B16-4E39-AFDA-F2B09E549324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30331F48-0B16-4E39-AFDA-F2B09E549324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30331F48-0B16-4E39-AFDA-F2B09E549324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
