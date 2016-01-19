@@ -72,7 +72,7 @@ namespace Hangman
 
                 try
                 { 
-                    g = char.Parse(Console.ReadLine());
+                    g = char.Parse(Console.ReadLine().ToLower());
                 }
                 catch (System.FormatException e)
                 {
