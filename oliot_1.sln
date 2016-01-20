@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oliot_1", "oliot_1.csproj", "{E846D2B8-A29F-4B92-A258-79C5C42C49AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oliot_2", "..\oliot_2\oliot_2.csproj", "{728DB260-1375-42ED-A428-DA68C2869E17}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oliot_3", "oliot_3\oliot_3.csproj", "{C76B9115-20D4-4305-8618-CF8E303EAB76}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oliot_4", "oliot_4\oliot_4.csproj", "{D138FA83-918B-48F7-982F-B3D46B789E76}"
@@ -19,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oliot_7", "oliot_7\oliot_7.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "Hangman\Hangman.csproj", "{30331F48-0B16-4E39-AFDA-F2B09E549324}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dungeon", "Dungeon\Dungeon.csproj", "{E87B86ED-D0D5-43C2-9D99-5CFCACF380FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dungeon", "..\Dungeon\Dungeon.csproj", "{E87B86ED-D0D5-43C2-9D99-5CFCACF380FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +29,6 @@ Global
 		{E846D2B8-A29F-4B92-A258-79C5C42C49AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E846D2B8-A29F-4B92-A258-79C5C42C49AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E846D2B8-A29F-4B92-A258-79C5C42C49AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{728DB260-1375-42ED-A428-DA68C2869E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{728DB260-1375-42ED-A428-DA68C2869E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{728DB260-1375-42ED-A428-DA68C2869E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{728DB260-1375-42ED-A428-DA68C2869E17}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C76B9115-20D4-4305-8618-CF8E303EAB76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C76B9115-20D4-4305-8618-CF8E303EAB76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C76B9115-20D4-4305-8618-CF8E303EAB76}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -59,10 +53,6 @@ Global
 		{30331F48-0B16-4E39-AFDA-F2B09E549324}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30331F48-0B16-4E39-AFDA-F2B09E549324}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30331F48-0B16-4E39-AFDA-F2B09E549324}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E87B86ED-D0D5-43C2-9D99-5CFCACF380FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E87B86ED-D0D5-43C2-9D99-5CFCACF380FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E87B86ED-D0D5-43C2-9D99-5CFCACF380FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E87B86ED-D0D5-43C2-9D99-5CFCACF380FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
