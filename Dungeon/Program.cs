@@ -1,10 +1,9 @@
 ﻿/*
-WARNING: This program is horrible hacked together frankenstein of a game. Pretty much nothing was planned in advance, I take absolutely NO responsibility over
+WARNING: This program is horrible hacked together frankenstein of a "game". Pretty much nothing was planned in advance. I take absolutely NO responsibility over
 what effects running this code might cause on your computer! I also want to say that you should in no situation use this code as an example of any kind, other than
 AWFUL CODE. It would probably be best if you stopped reading after this comment.
 
 IF YOU FIND THIS FILE/CODE ON YOUR COMPUTER YOU SHOULD REMOVE THIS FILE IMMEDIATELY.
-
 
 TODO: Implement an object class that all level objects (player, monsters etc.) will subclass.
 */
@@ -258,8 +257,8 @@ namespace Dungeon
             while (this.readInput())
             {
                 this.draw();
-                System.Threading.Thread.Sleep(10);
             }
+            Console.Clear();
         }
     }
 }
