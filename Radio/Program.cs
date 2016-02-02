@@ -23,7 +23,6 @@ namespace Radio
             Console.WriteLine("Freq: " + radio.Frequency);
             radio.Frequency = 26000.1;
             Console.WriteLine("Freq: " + radio.Frequency);
-
         }
     }
 }
