@@ -10,6 +10,9 @@ namespace oliotd5_3
     {
         static void Main(string[] args)
         {
+            Mammal man = new Human(20);
+            man.Move(2);
+            man.Grow();            
         }
     }
 }
